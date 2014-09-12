@@ -1,7 +1,7 @@
 HyperlapseWalkthroughs
 ======================
 
-Walkthrough screens like Hyperlapse
+Walkthrough screens like Hyperlapse with background video clip.
 
 
 
