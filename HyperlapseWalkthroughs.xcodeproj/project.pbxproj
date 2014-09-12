@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40C9DD0519C368D600E6B74A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C9DD0419C368D600E6B74A /* main.m */; };
+		40C9DD0819C368D600E6B74A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C9DD0719C368D600E6B74A /* AppDelegate.m */; };
+		40C9DD0B19C368D600E6B74A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C9DD0A19C368D600E6B74A /* ViewController.m */; };
+		40C9DD0E19C368D600E6B74A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40C9DD0C19C368D600E6B74A /* Main.storyboard */; };
+		40C9DD1019C368D600E6B74A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40C9DD0F19C368D600E6B74A /* Images.xcassets */; };
+		40C9DD1C19C368D700E6B74A /* HyperlapseWalkthroughsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C9DD1B19C368D700E6B74A /* HyperlapseWalkthroughsTests.m */; };
+		40C9DD2719C3691A00E6B74A /* OnboardingContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C9DD2619C3691A00E6B74A /* OnboardingContentViewController.m */; };
+		40C9DD5019C36A2000E6B74A /* OnboardingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C9DD4F19C36A2000E6B74A /* OnboardingViewController.m */; };
+		40C9DD5219C3718500E6B74A /* video1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 40C9DD5119C3718500E6B74A /* video1.mp4 */; };
+		40C9DD5419C3724700E6B74A /* video2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 40C9DD5319C3724700E6B74A /* video2.mp4 */; };
+		40C9DD5619C37BF800E6B74A /* video3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 40C9DD5519C37BF800E6B74A /* video3.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40C9DD1619C368D700E6B74A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40C9DCF719C368D600E6B74A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40C9DCFE19C368D600E6B74A;
+			remoteInfo = HyperlapseWalkthroughs;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		40C9DCFF19C368D600E6B74A /* HyperlapseWalkthroughs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HyperlapseWalkthroughs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40C9DD0319C368D600E6B74A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40C9DD0419C368D600E6B74A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		40C9DD0619C368D600E6B74A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		40C9DD0719C368D600E6B74A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		40C9DD0919C368D600E6B74A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		40C9DD0A19C368D600E6B74A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		40C9DD0D19C368D600E6B74A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		40C9DD0F19C368D600E6B74A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		40C9DD1519C368D700E6B74A /* HyperlapseWalkthroughsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HyperlapseWalkthroughsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40C9DD1A19C368D700E6B74A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40C9DD1B19C368D700E6B74A /* HyperlapseWalkthroughsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HyperlapseWalkthroughsTests.m; sourceTree = "<group>"; };
+		40C9DD2519C3691A00E6B74A /* OnboardingContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnboardingContentViewController.h; sourceTree = "<group>"; };
+		40C9DD2619C3691A00E6B74A /* OnboardingContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnboardingContentViewController.m; sourceTree = "<group>"; };
+		40C9DD4E19C36A2000E6B74A /* OnboardingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnboardingViewController.h; sourceTree = "<group>"; };
+		40C9DD4F19C36A2000E6B74A /* OnboardingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnboardingViewController.m; sourceTree = "<group>"; };
+		40C9DD5119C3718500E6B74A /* video1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video1.mp4; sourceTree = "<group>"; };
+		40C9DD5319C3724700E6B74A /* video2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video2.mp4; sourceTree = "<group>"; };
+		40C9DD5519C37BF800E6B74A /* video3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video3.mp4; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40C9DCFC19C368D600E6B74A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40C9DD1219C368D700E6B74A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40C9DCF619C368D600E6B74A = {
+			isa = PBXGroup;
+			children = (
+				40C9DD0119C368D600E6B74A /* HyperlapseWalkthroughs */,
+				40C9DD1819C368D700E6B74A /* HyperlapseWalkthroughsTests */,
+				40C9DD0019C368D600E6B74A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40C9DD0019C368D600E6B74A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40C9DCFF19C368D600E6B74A /* HyperlapseWalkthroughs.app */,
+				40C9DD1519C368D700E6B74A /* HyperlapseWalkthroughsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40C9DD0119C368D600E6B74A /* HyperlapseWalkthroughs */ = {
+			isa = PBXGroup;
+			children = (
+				40C9DD5119C3718500E6B74A /* video1.mp4 */,
+				40C9DD5319C3724700E6B74A /* video2.mp4 */,
+				40C9DD5519C37BF800E6B74A /* video3.mp4 */,
+				40C9DD0619C368D600E6B74A /* AppDelegate.h */,
+				40C9DD0719C368D600E6B74A /* AppDelegate.m */,
+				40C9DD0919C368D600E6B74A /* ViewController.h */,
+				40C9DD0A19C368D600E6B74A /* ViewController.m */,
+				40C9DD4E19C36A2000E6B74A /* OnboardingViewController.h */,
+				40C9DD4F19C36A2000E6B74A /* OnboardingViewController.m */,
+				40C9DD2519C3691A00E6B74A /* OnboardingContentViewController.h */,
+				40C9DD2619C3691A00E6B74A /* OnboardingContentViewController.m */,
+				40C9DD0C19C368D600E6B74A /* Main.storyboard */,
+				40C9DD0F19C368D600E6B74A /* Images.xcassets */,
+				40C9DD0219C368D600E6B74A /* Supporting Files */,
+			);
+			path = HyperlapseWalkthroughs;
+			sourceTree = "<group>";
+		};
+		40C9DD0219C368D600E6B74A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				40C9DD0319C368D600E6B74A /* Info.plist */,
+				40C9DD0419C368D600E6B74A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		40C9DD1819C368D700E6B74A /* HyperlapseWalkthroughsTests */ = {
+			isa = PBXGroup;
+			children = (
+				40C9DD1B19C368D700E6B74A /* HyperlapseWalkthroughsTests.m */,
+				40C9DD1919C368D700E6B74A /* Supporting Files */,
+			);
+			path = HyperlapseWalkthroughsTests;
+			sourceTree = "<group>";
+		};
+		40C9DD1919C368D700E6B74A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				40C9DD1A19C368D700E6B74A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40C9DCFE19C368D600E6B74A /* HyperlapseWalkthroughs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40C9DD1F19C368D700E6B74A /* Build configuration list for PBXNativeTarget "HyperlapseWalkthroughs" */;
+			buildPhases = (
+				40C9DCFB19C368D600E6B74A /* Sources */,
+				40C9DCFC19C368D600E6B74A /* Frameworks */,
+				40C9DCFD19C368D600E6B74A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HyperlapseWalkthroughs;
+			productName = HyperlapseWalkthroughs;
+			productReference = 40C9DCFF19C368D600E6B74A /* HyperlapseWalkthroughs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		40C9DD1419C368D700E6B74A /* HyperlapseWalkthroughsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40C9DD2219C368D700E6B74A /* Build configuration list for PBXNativeTarget "HyperlapseWalkthroughsTests" */;
+			buildPhases = (
+				40C9DD1119C368D700E6B74A /* Sources */,
+				40C9DD1219C368D700E6B74A /* Frameworks */,
+				40C9DD1319C368D700E6B74A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40C9DD1719C368D700E6B74A /* PBXTargetDependency */,
+			);
+			name = HyperlapseWalkthroughsTests;
+			productName = HyperlapseWalkthroughsTests;
+			productReference = 40C9DD1519C368D700E6B74A /* HyperlapseWalkthroughsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40C9DCF719C368D600E6B74A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Muhammad Zohaib Brohi";
+				TargetAttributes = {
+					40C9DCFE19C368D600E6B74A = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					40C9DD1419C368D700E6B74A = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 40C9DCFE19C368D600E6B74A;
+					};
+				};
+			};
+			buildConfigurationList = 40C9DCFA19C368D600E6B74A /* Build configuration list for PBXProject "HyperlapseWalkthroughs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40C9DCF619C368D600E6B74A;
+			productRefGroup = 40C9DD0019C368D600E6B74A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40C9DCFE19C368D600E6B74A /* HyperlapseWalkthroughs */,
+				40C9DD1419C368D700E6B74A /* HyperlapseWalkthroughsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40C9DCFD19C368D600E6B74A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40C9DD5219C3718500E6B74A /* video1.mp4 in Resources */,
+				40C9DD0E19C368D600E6B74A /* Main.storyboard in Resources */,
+				40C9DD5419C3724700E6B74A /* video2.mp4 in Resources */,
+				40C9DD5619C37BF800E6B74A /* video3.mp4 in Resources */,
+				40C9DD1019C368D600E6B74A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40C9DD1319C368D700E6B74A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40C9DCFB19C368D600E6B74A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40C9DD0B19C368D600E6B74A /* ViewController.m in Sources */,
+				40C9DD0819C368D600E6B74A /* AppDelegate.m in Sources */,
+				40C9DD0519C368D600E6B74A /* main.m in Sources */,
+				40C9DD5019C36A2000E6B74A /* OnboardingViewController.m in Sources */,
+				40C9DD2719C3691A00E6B74A /* OnboardingContentViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40C9DD1119C368D700E6B74A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40C9DD1C19C368D700E6B74A /* HyperlapseWalkthroughsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40C9DD1719C368D700E6B74A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40C9DCFE19C368D600E6B74A /* HyperlapseWalkthroughs */;
+			targetProxy = 40C9DD1619C368D700E6B74A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		40C9DD0C19C368D600E6B74A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40C9DD0D19C368D600E6B74A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40C9DD1D19C368D700E6B74A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		40C9DD1E19C368D700E6B74A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40C9DD2019C368D700E6B74A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = HyperlapseWalkthroughs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		40C9DD2119C368D700E6B74A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = HyperlapseWalkthroughs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		40C9DD2319C368D700E6B74A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HyperlapseWalkthroughs.app/HyperlapseWalkthroughs";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HyperlapseWalkthroughsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		40C9DD2419C368D700E6B74A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HyperlapseWalkthroughs.app/HyperlapseWalkthroughs";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HyperlapseWalkthroughsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40C9DCFA19C368D600E6B74A /* Build configuration list for PBXProject "HyperlapseWalkthroughs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40C9DD1D19C368D700E6B74A /* Debug */,
+				40C9DD1E19C368D700E6B74A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40C9DD1F19C368D700E6B74A /* Build configuration list for PBXNativeTarget "HyperlapseWalkthroughs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40C9DD2019C368D700E6B74A /* Debug */,
+				40C9DD2119C368D700E6B74A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		40C9DD2219C368D700E6B74A /* Build configuration list for PBXNativeTarget "HyperlapseWalkthroughsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40C9DD2319C368D700E6B74A /* Debug */,
+				40C9DD2419C368D700E6B74A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40C9DCF719C368D600E6B74A /* Project object */;
+}
